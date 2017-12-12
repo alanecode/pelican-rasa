@@ -1,0 +1,56 @@
+/* text */
+body {
+    font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+    /*font-size: 16px;*/
+    color:  #444;
+    background: #fefefe;
+}
+
+.intro-header .page-heading .subheading, .intro-header .post-heading .subheading, .intro-header .site-heading .subheading, .navbar-custom, h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+.intro-header .post-heading .meta {
+    font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+}
+
+/* making text clear in headers */
+
+div.navbar-header.page-scroll {
+    background-color: rgba(47,79,79,0.6);
+}
+
+
+@media (min-width: 768px) {
+    .navbar>.container-fluid .navbar-brand {
+	margin-left: -13px;
+	margin-right: -11px;
+    }
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand
+
+/* circles behind social links */
+a:hover {
+    color: #07162B;
+}
+
+/* Tidy up jupyter notebooks imported via pelican-ipynb */
+table.dataframe {
+    overflow-x: auto;
+    display: block;
+}
+
+.output_area {
+    overflow-x: auto; 
+}
+
+a.anchor-link {
+    padding-left: .5em;
+}
+
+.prompt {
+    padding-bottom: 0.5em;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 15px;
+}
